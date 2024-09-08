@@ -1,4 +1,5 @@
 // import mongoose from "mongoose";
+import mongoose from 'mongoose';
 import Contact from '../../api/../../model/contact.js';
 import db from '../../../lib/mongodb';
 import { NextResponse } from "next/server";
