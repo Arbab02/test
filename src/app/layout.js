@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Virtual Crafters",
-  description: "Garments World - Leading Garments manufacturers",
+  description: "Virtual Crafters - Leading Digital Solution makers",
 };
 
 export default function RootLayout({ children }) {
