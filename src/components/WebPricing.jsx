@@ -593,7 +593,7 @@ const PricingCard = ({ title, price, features, badge, buttonText, buttonStyle, f
           {badge}
         </span>
       )}
-      <h2 className="lg:text-2xl sm:text-3xl sm:mb-2  tracking-widest text-white title-font mb-1 font-bold">
+      <h2 className="lg:text-2xl sm:text-3xl sm:mb-2  tracking-widest text-white title-font mb-1 font-semibold">
         💻 {title}
       </h2>
       <h1 className="lg:text-2xl sm:text-2xl text-white pb-4 mb-4 border-b border-gray-800 leading-none">
