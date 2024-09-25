@@ -32,7 +32,7 @@ const Hero = () => {
           <FaRobot className="text-green-400 lg:text-6xl md:text-5xl sm:text-5xl transform hover:scale-110 transition-transform duration-300" title="Automation" />
           <SiNextdotjs className="text-gray-300 lg:text-6xl md:text-5xl sm:text-5xl transform hover:scale-110 transition-transform duration-300" title="Next.js" />
           
-          <FaCode className="text-purple-400 text-6xl md:text-5xl sm:text-5xl transform hover:scale-110 transition-transform duration-300" title="Development" />
+          <FaCode className="text-purple-400 lg:text-6xl md:text-5xl sm:text-5xl transform hover:scale-110 transition-transform duration-300" title="Development" />
         </div>
       </div>
     </section>
