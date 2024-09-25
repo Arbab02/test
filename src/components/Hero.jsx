@@ -30,7 +30,7 @@ const Hero = () => {
           <FaLaptopCode className="text-blue-400 lg:text-6xl md:text-5xl sm:text-4xl transform hover:scale-110 transition-transform duration-300" title="Coding" />
           <FaCloud className="text-blue-300 lg:text-6xl md:text-5xl sm:text-4xl transform hover:scale-110 transition-transform duration-300" title="Cloud Technologies" />
           <FaRobot className="text-green-400 lg:text-6xl md:text-5xl sm:text-5xl transform hover:scale-110 transition-transform duration-300" title="Automation" />
-          <SiNextdotjs className="text-gray-300 text-6xl md:text-5xl sm:text-5xl transform hover:scale-110 transition-transform duration-300" title="Next.js" />
+          <SiNextdotjs className="text-gray-300 lg:text-6xl md:text-5xl sm:text-5xl transform hover:scale-110 transition-transform duration-300" title="Next.js" />
           
           <FaCode className="text-purple-400 text-6xl md:text-5xl sm:text-5xl transform hover:scale-110 transition-transform duration-300" title="Development" />
         </div>
