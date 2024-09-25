@@ -1,6 +1,13 @@
 import React from "react";
 import Link from "next/link";
-import { FaEnvelopeOpenText, FaArrowRight, FaLaptopCode, FaRobot, FaCloud, FaCode } from "react-icons/fa"; // React icons for tech
+import {
+  FaEnvelopeOpenText,
+  FaArrowRight,
+  FaLaptopCode,
+  FaRobot,
+  FaCloud,
+  FaCode,
+} from "react-icons/fa"; // React icons for tech
 import { SiNextdotjs, SiMongodb, SiTailwindcss } from "react-icons/si"; // Additional tech icons
 
 const Hero = () => {
@@ -9,10 +16,16 @@ const Hero = () => {
       <div className="container mx-auto flex px-3 sm:px-5 pt-[3.5rem] md:pt-[5rem] items-center justify-center flex-col max-w-full">
         <div className="text-center lg:w-2/3 w-full">
           <h1 className="text-3xl sm:text-5xl md:text-6xl font-extrabold mb-4 sm:mb-6 text-gray-200 animate-pulse leading-tight">
-            🚀 Empowering Your Business with <br className="hidden sm:block" /> Cutting-Edge Solutions! ⚡
+            🚀 Empowering Your Business with <br className="hidden sm:block" />{" "}
+            Cutting-Edge Solutions! ⚡
           </h1>
           <p className="text-base sm:text-lg md:text-2xl leading-relaxed mb-6 sm:mb-8 text-gray-100">
-            At <span className="font-semibold text-yellow-300">🌟 Virtual Crafters 🌟</span>, we know how important it is to capture the perfect moment for your business and clients. 🎯
+            At{" "}
+            <span className="font-semibold text-yellow-300">
+              🌟 Virtual Crafters 🌟
+            </span>
+            , we know how important it is to capture the perfect moment for your
+            business and clients. 🎯
           </p>
           <div className="flex justify-center items-center">
             <Link href="mailto:info@virtualcrafterstek.com">
@@ -27,11 +40,26 @@ const Hero = () => {
 
         {/* Tech Icons with default colors */}
         <div className="mt-8 flex justify-center space-x-4 text-white">
-          <FaLaptopCode className="text-blue-400 text-6xl sm:text-5xl transform hover:scale-110 transition-transform duration-300" title="Coding" />
-          <FaCloud className="text-blue-300 text-6xl sm:text-5xl transform hover:scale-110 transition-transform duration-300" title="Cloud Technologies" />
-          <FaRobot className="text-green-400 text-6xl sm:text-5xl transform hover:scale-110 transition-transform duration-300" title="Automation" />
-          <SiNextdotjs className="text-gray-300 text-6xl sm:text-5xl transform hover:scale-110 transition-transform duration-300" title="Next.js" />
-          <FaCode className="text-purple-400 text-6xl sm:text-5xl transform hover:scale-110 transition-transform duration-300" title="Development" />
+          <FaLaptopCode
+            className="text-blue-400 lg:text-6xl md:text-6xl sm:text-6xl text-5xl transform hover:scale-110 transition-transform duration-300"
+            title="Coding"
+          />
+          <FaCloud
+            className="text-blue-300 lg:text-6xl md:text-6xl sm:text-6xl text-5xl transform hover:scale-110 transition-transform duration-300"
+            title="Cloud Technologies"
+          />
+          <FaRobot
+            className="text-green-400 lg:text-6xl md:text-6xl sm:text-6xl text-5xl transform hover:scale-110 transition-transform duration-300"
+            title="Automation"
+          />
+          <SiNextdotjs
+            className="text-gray-300 lg:text-6xl md:text-6xl sm:text-6xl text-5xl transform hover:scale-110 transition-transform duration-300"
+            title="Next.js"
+          />
+          <FaCode
+            className="text-purple-400 lg:text-6xl md:text-6xl sm:text-6xl text-5xl transform hover:scale-110 transition-transform duration-300"
+            title="Development"
+          />
         </div>
       </div>
     </section>
