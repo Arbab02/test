@@ -1,30 +1,39 @@
 import React from "react";
-import Image from "next/image";
+import Link from "next/link";
+import { FaEnvelopeOpenText, FaArrowRight, FaLaptopCode, FaRobot, FaCloud, FaCode } from "react-icons/fa"; // React icons for tech
+import { SiNextdotjs, SiMongodb, SiTailwindcss } from "react-icons/si"; // Additional tech icons
 
 const Hero = () => {
   return (
     <section className="text-gray-400 bg-[#000319] body-font">
-      <div className="container mx-auto flex px-5 pt-20 items-center justify-center flex-col">
+      <div className="container mx-auto flex px-3 sm:px-5 pt-[3.5rem] md:pt-[5rem] items-center justify-center flex-col max-w-full">
         <div className="text-center lg:w-2/3 w-full">
-          <h1 className="text-5xl font-extrabold mb-6 text-white">
-            Empowering Your Business with Cutthing-Edge Solutions!
+          <h1 className="text-3xl sm:text-5xl md:text-6xl font-extrabold mb-4 sm:mb-6 text-gray-200 animate-pulse leading-tight">
+            🚀 Empowering Your Business with <br className="hidden sm:block" /> Cutting-Edge Solutions! ⚡
           </h1>
-          <p className="text-2xl leading-relaxed mb-6">
-          At Our Company (Virtual Crafters), We know how important it is to get the perfect shot – for you and your clients.
+          <p className="text-base sm:text-lg md:text-2xl leading-relaxed mb-6 sm:mb-8 text-gray-100">
+            At <span className="font-semibold text-yellow-300">🌟 Virtual Crafters 🌟</span>, we know how important it is to capture the perfect moment for your business and clients. 🎯
           </p>
-          <div className="flex justify-center">
-            <button className="ml-4 inline-flex text-black bg-white border-0 py-2 px-12 focus:outline-none  rounded-3xl text-lg">
-              Button
-            </button>
+          <div className="flex justify-center items-center">
+            <Link href="mailto:info@virtualcrafterstek.com">
+              <button className="ml-0 sm:ml-4 mb-10 sm:mb-16 inline-flex items-center text-white bg-gradient-to-r from-[#000319] to-[#2c2f59] hover:from-[#000319] hover:to-[#424574] py-2 px-6 sm:py-3 sm:px-10 focus:outline-none rounded-full text-sm sm:text-lg transform hover:scale-105 transition-all duration-300">
+                <FaEnvelopeOpenText className="mr-2 text-lg sm:text-xl animate-bounce" />
+                Free Consultation
+                <FaArrowRight className="ml-2 text-lg sm:text-xl" />
+              </button>
+            </Link>
           </div>
         </div>
-        <Image
-          className="banner mt-2 lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded"
-          src="/images/banner.png"
-          width={500}
-          height={500}
-          alt="Logo"
-        />
+
+        {/* Tech Icons with default colors */}
+        <div className="mt-8 flex justify-center space-x-4 text-white">
+          <FaLaptopCode className="text-blue-400 text-6xl transform hover:scale-110 transition-transform duration-300" title="Coding" />
+          <FaCloud className="text-blue-300 text-6xl transform hover:scale-110 transition-transform duration-300" title="Cloud Technologies" />
+          <FaRobot className="text-green-400 text-6xl transform hover:scale-110 transition-transform duration-300" title="Automation" />
+          <SiNextdotjs className="text-gray-300 text-6xl transform hover:scale-110 transition-transform duration-300" title="Next.js" />
+          
+          <FaCode className="text-purple-400 text-6xl transform hover:scale-110 transition-transform duration-300" title="Development" />
+        </div>
       </div>
     </section>
   );
