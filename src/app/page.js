@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Hero from "/src/components/Hero.jsx";
 import Form from "/src/components/Form.tsx"
-import Cards from "/src/components/Cards.jsx"
+import Stats from "/src/components/Stats.jsx"
 
 
 export default function Home() {
@@ -9,7 +9,7 @@ export default function Home() {
     <>
     <Hero/>
  
-  <Cards/>
+  <Stats/>
    
     </>
   );
