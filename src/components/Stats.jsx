@@ -42,7 +42,7 @@ const Stats = () => {
               transition={{ delay: 0.2 * index, duration: 0.8 }}
             >
               <motion.div
-                className="border-2 border-gray-800 px-4 py-8 rounded-lg hover:shadow-lg hover:scale-105 transform transition-all duration-300 ease-in-out hover:cursor-pointer"
+                className="bg-gradient-to-tl from-[#000319] via-[#10175a] to-[#000319] px-4 py-8 rounded-lg hover:shadow-lg hover:scale-105 transform transition-all duration-300 ease-in-out hover:cursor-pointer"
                 whileHover={{ scale: 1.05, rotate: 3 }}
               >
                 <div className="text-5xl mb-4">{stat.icon}</div>
