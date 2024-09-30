@@ -24,16 +24,19 @@ body {
   background-color:#000319;
 }
 
-.banner{
-  filter: drop-shadow(2px 2px 35px #192fdd);
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
-button{
-
-  transition: 0.6s ease-in-out;
-}
-
-button:hover{
-
-  transform: scale(1.2) rotate(360deg);
+.animated-gradient {
+  background-size: 300% 200%;
+  animation: gradient-animation 8s ease infinite;
 }
