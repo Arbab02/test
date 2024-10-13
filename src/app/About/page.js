@@ -7,6 +7,8 @@ import { FiLayers } from "react-icons/fi";
 import { BsGlobe, BsGraphUp } from "react-icons/bs";
 import Image from "next/image";
 import AboutUs from "/src/components/AboutUs.jsx";
+import Vision from "/src/components/Vision.jsx";
+import Mission from "/src/components/Mission.jsx";
 import OurProcess from "/src/components/OurProcess.jsx";
 
 const About = () => {
@@ -39,6 +41,8 @@ const About = () => {
         {/* About Us Section */}
       
 <AboutUs/>
+<Vision/>
+<Mission/>
         {/* Our Process Section */}
         <motion.div
           initial="hidden"
@@ -60,17 +64,7 @@ const About = () => {
           variants={containerVariants}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6">
-           
-            Our Vision 
-          </h2>
-          <p className="text-gray-400 text-base sm:text-lg md:text-xl max-w-3xl mx-auto">
-            Our goal is to be seen as a strong and creative firm with a
-            straightforward environment 💡. Expand the market by offering clients simple IT
-            solutions and satisfying them with our exceptional services 💻.
-            We aim to execute activities with compelling software designs
-            and frameworks 🛠️.
-          </p>
+         
         </motion.div>
 
         {/* Our Mission Section */}
@@ -82,15 +76,11 @@ const About = () => {
         >
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6">
            
-            Our Mission 
+            
           </h2>
            <p className="text-gray-400 text-base sm:text-lg md:text-xl max-w-3xl mx-auto mb-6">
         
-           Our foremost objective is to perfect each outcome the client
-            demands by delivering brilliant solutions 🌟, defining the
-            value-creating market 💼, and striving to meet every goal 🎯. We
-            are committed to creating long-lasting relationships with our clients
-            based on trust and excellence 🤝.
+         
            
           </p>
           <motion.div
