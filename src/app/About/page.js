@@ -39,7 +39,7 @@ const About = () => {
     <div className="bg-[#000319] text-gray-200 py-8">
       <div className="container mx-auto px-6 sm:px-8 md:px-12 lg:px-16">
         {/* About Us Section */}
-      
+       <h1 className="text-7xl font-bold text-center my-12">About <span className='text-blue-500'>Us</span></h1>
 <AboutUs/>
 <Vision/>
 <Mission/>
